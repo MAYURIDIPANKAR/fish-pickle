@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majuli Fish Pickle - Authentic Assam Fish Pickle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Majuli Fish Pickle</h1>
+        <p>Premium Value-Added Fish Products | FSSAI Licensed</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home" class="hero">
+        <h2>Spicy Fish Pickle from Majuli Rivers</h2>
+        <p>Fresh catch, traditional recipe. Order via WhatsApp!</p>
+    </section>
+    <section id="products" class="products">
+        <h2>Our Fish Pickles</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200/2e7d32/white?text=Classic+200g" alt="Classic Fish Pickle">
+                <h3>Classic (200g)</h3>
+                <p class="price">₹250</p>
+                <button class="buy-btn" data-product="Classic 200g">Order Now</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200/4caf50/white?text=Family+500g" alt="Family Pack">
+                <h3>Family Pack (500g)</h3>
+                <p class="price">₹550</p>
+                <button class="buy-btn" data-product="Family 500g">Order Now</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200/ff9800/white?text=Combo" alt="Combo">
+                <h3>Combo (3x200g)</h3>
+                <p class="price">₹700</p>
+                <button class="buy-btn" data-product="Combo">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>PMMSY-supported unit in Majuli, Assam. Sustainable fish processing.[memory:4][memory:9]</p>
+    </section>
+    <footer id="contact">
+        <p>Phone: +91-XXXXXXXXX | Majuli, Assam | FSSAI: XXXXXX</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
